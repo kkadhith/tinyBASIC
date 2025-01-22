@@ -1,0 +1,15 @@
+function main;
+beginparams
+endparams
+beginlocals
+
+  a : int;
+
+endlocals
+
+beginfuncbody
+
+  a ?= 150;
+  print a;
+
+endfuncbody

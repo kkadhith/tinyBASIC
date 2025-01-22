@@ -1,0 +1,18 @@
+function main;
+beginparams
+endparams
+beginlocals
+
+ a : array [20] type int;
+ b : int;
+ c : int;
+
+endlocals
+beginfuncbody
+
+ b ?= 3;
+ c ?= 5;
+ a[0] ?= b + c;
+ print a[0]; 
+
+endfuncbody

@@ -1,0 +1,24 @@
+function main;
+beginparams
+endparams
+beginlocals
+
+i : int;
+j : int;
+
+endlocals
+beginfuncbody
+
+    i ?= 1;
+    while (i < 2) beginwhile
+
+        j ?= 1;
+        while (j <= 3) beginwhile
+            input j;
+            j ?= j + 1;
+        endwhile;
+
+        i ?= i + 1;
+    endwhile;
+
+endfuncbody

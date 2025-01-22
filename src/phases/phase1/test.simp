@@ -1,0 +1,14 @@
+function main;
+beginparams
+endparams
+beginlocals
+i33 : int;
+endlocals
+beginfuncbody
+	2ac : int; $this is a comment
+	i ?= 0;
+	while (i != 10) beginwhile
+		i ?= i + 1;
+	endwhile
+endfunbody
+hello ^

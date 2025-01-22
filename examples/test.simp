@@ -1,0 +1,14 @@
+$ test case
+
+function main;
+beginparams
+
+beginlocals
+
+i : int;
+
+endlocals
+beginfuncbody
+
+
+endfuncbody

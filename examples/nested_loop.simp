@@ -1,0 +1,26 @@
+$ This is a nested loop 
+
+function main;
+beginparams
+endparams
+beginlocals
+
+i : int;
+j : int;
+
+endlocals
+beginfuncbody
+
+  i ?= 0;
+  while (i < 2) beginwhile
+
+    j ?= 1;
+    while (j <= 3) beginwhile
+      print j;
+      j ?= j + 1;
+    endwhile;
+
+    i ?= i + 1;
+  endwhile;
+
+endfuncbody

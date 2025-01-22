@@ -1,0 +1,30 @@
+function mult;
+beginparams
+a : int;
+b : int;
+
+endparams
+beginlocals
+endlocals
+beginfuncbody
+ return a + b;
+endfuncbody
+
+
+
+function main;
+beginparams
+endparams
+beginlocals
+a : int;
+b : int;
+c : int;
+d : int;
+endlocals
+beginfuncbody
+
+ a ?= 100;
+ b ?= 50;
+ c ?= mult(a, b);
+ 
+endfuncbody

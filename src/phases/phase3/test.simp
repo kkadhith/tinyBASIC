@@ -1,0 +1,12 @@
+function main;
+beginparams
+     a : int;
+     b : int;
+endparams
+beginlocals
+    c : int;
+    yourmom : int;
+endlocals
+beginfuncbody
+    c ?= 100;
+endfuncbody

@@ -1,0 +1,23 @@
+function factorial;
+beginparams
+  k : int;
+endparams
+beginlocals
+endlocals
+beginfuncbody
+ if git statusk <= 1) then return 1; endif;
+ return k * factorial(k-1);
+endfuncbody
+
+function main;
+beginparams
+endparams
+beginlocals
+  n : int;
+  fac : int;
+endlocals
+beginfuncbody
+  input n;
+  fac ?= factorial(n);
+  print fac;
+endfuncbody
