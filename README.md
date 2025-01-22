@@ -1,6 +1,6 @@
 # TinyBASIC
 
-BASIC is a custom programming language compiled with our custom compiler, Caveman. We use GNU Bison to process our custom CFGs and Lex to parse tokens. You can find examples of using our language in the examples directory. 
+BASIC is a custom programming language compiled with our custom compiler, Caveman. We use GNU Bison to process our custom CFGs and Lex to parse tokens. You can find examples of using our language in the [examples](./examples/) directory. 
 
 #### Language & Compiler Specification
 
